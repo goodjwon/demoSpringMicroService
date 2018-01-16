@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.brownfield.pss.checkin.component.CheckinComponent;
 import com.brownfield.pss.checkin.entity.CheckInRecord;
 
-@RestController
-@CrossOrigin
-@RequestMapping("/checkin")
-public class CheckInController {
+	@RestController
+	@CrossOrigin
+	@RequestMapping("/checkin")
+	public class CheckInController {
 
 	CheckinComponent checkInComponent;
 	
